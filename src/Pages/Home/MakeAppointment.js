@@ -4,8 +4,8 @@ import appointment from '../../assets/images/appointment.png'
 const MakeAppointment = () => {
     return (
         <section style={{background:`url(${appointment})`}} className='flex justify-center items-center '>
-            <div className='flex-1'>
-                <img  style={{width:'500px', marginTop:'-120px'}} src={doctor} alt="" />
+            <div className='flex-1 hidden lg:block'>
+                <img style={{width:'500px', marginTop:'-120px'}} src={doctor} alt="" />
             </div>
             <div className='flex-1'>
             <h3 className='text-xl text-white text-3xl py-5 font-bold'>Appointment</h3>
